@@ -1,0 +1,29 @@
+{
+    "name": "pg1",
+    "version": "1.0.0",
+    "description": "Tutorial that deploys basic Node.js app onto Google Cloud using circleci, kubernetes, and docker.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "mocha"
+    },
+    "keywords": [
+        "node",
+        "gcloud",
+        "kubernetes",
+        "docker",
+        "circleCI"
+    ],
+    "author": "Nicole Garrow",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "morgan": "^1.8.2"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "request": "^2.88.0"
+    }
+}
