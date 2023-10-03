@@ -26,7 +26,7 @@ variable "kubernetes_max_ver" {
 }
 
 variable "app_name" {
-    default = "cicd-101"
+    default = "cicd-prac-app"
 }
 
 variable "machine_type" {

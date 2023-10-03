@@ -4,7 +4,7 @@ variable "cluster" {
 variable "app" {
     type = string
     description = "Name of application"
-    default = "cicdPracApp"
+    default = "cicd-prac-app"
 }
 variable "zone" {
     default = "us-east1-b"
