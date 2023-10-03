@@ -1,6 +1,6 @@
 {
   "name": "learntrygrow",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "nodejs and CircleCI",
   "main": "app.js",
   "directories": {"test": "test"},
