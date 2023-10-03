@@ -4,7 +4,7 @@ output "cluster" {
 
 output "host" {
     value =  google_container_cluster.primary.endpoint
-    sensative = true
+    sensitive = true
 }
 
 output "cluster_ca_certificate" {
