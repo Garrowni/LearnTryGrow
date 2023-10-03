@@ -25,3 +25,10 @@ variable "kubernetes_max_ver" {
     default = "latest"
 }
 
+variable "app_name" {
+    default = "cicd-101"
+}
+
+variable "machine_type" {
+    default = "g1-small"
+}

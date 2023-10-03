@@ -11,13 +11,12 @@ resource "google_container_cluster" "primary" {
   name = var.cluster
   location = var.zone
   initial_node_count = 3
+  deletion_protection = false
 
-  master_auth = {
-    username = ""
-    password = ""
+  master_auth {
 
-    client_certificate_config = {
-        issue_client_certificate = false
+    client_certificate_config {
+        issue_client_certificate = true
     }
   }
 
@@ -33,13 +32,13 @@ resource "google_container_cluster" "primary" {
     }
 
     labels = {
-        app = var.app_name
+        app = var.app_name 
     }
 
     tags = ["app", var.app_name]
   }
 
-  tiemouts {
+  timeouts {
     create = "30m"
     update = "40m"
   }
