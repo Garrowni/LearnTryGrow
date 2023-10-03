@@ -1,5 +1,13 @@
-#Terraform
+# Terraform
 .terraform/
 .terraformrc
 terraform.rc
 *.tfstate*
+
+# Dependency Directories
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+# Optional npm cache directory
+.npm
