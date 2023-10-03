@@ -10,7 +10,7 @@ variable "zone" {
 }
 
 variable "cluster" {
-    default = "cicd-workshops"
+    default = "cicd-cluster"
 }
 
 variable "credentials" {
