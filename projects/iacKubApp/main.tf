@@ -5,7 +5,7 @@ terraform {
             version = "1.13.3"
         }
     }
-    backend "remoteBackend" {
+    backend "remote" {
         organization = "garrowTF"
         workspaces{
             name = "iac_kuberenetes_app"

@@ -1,5 +1,5 @@
 terraform {
-    backend "remoteBackend" {
+    backend "remote" {
         organization = "garrowTF"
         workspaces{
             name = "iac_gke_cluster"
