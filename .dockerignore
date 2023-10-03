@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+
+#Terraform
+./terraform/
+*.tfvars
+
+#local state unless a remote bucket is used
+*.tfstate
+*.tfstate.*
+plan.*
+projects/iacGKE/
+projects/iacKubApp/
